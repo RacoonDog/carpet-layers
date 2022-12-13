@@ -1,0 +1,6 @@
+{
+  "parent": "carpet-layers:block/carpet7",
+  "textures": {
+    "wool": "minecraft:block/light_gray_wool"
+  }
+}

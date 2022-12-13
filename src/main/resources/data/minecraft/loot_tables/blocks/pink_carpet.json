@@ -1,0 +1,341 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "minecraft:pink_carpet",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "carpet_layers": "1"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 1.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "minecraft:pink_carpet"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "minecraft:pink_carpet",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "carpet_layers": "2"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 2.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "minecraft:pink_carpet"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "minecraft:pink_carpet",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "carpet_layers": "3"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 3.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "minecraft:pink_carpet"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "minecraft:pink_carpet",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "carpet_layers": "4"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 4.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "minecraft:pink_carpet"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "minecraft:pink_carpet",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "carpet_layers": "5"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 5.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "minecraft:pink_carpet"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "minecraft:pink_carpet",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "carpet_layers": "6"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 6.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "minecraft:pink_carpet"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "minecraft:pink_carpet",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "carpet_layers": "7"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 7.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "minecraft:pink_carpet"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "minecraft:pink_carpet",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "carpet_layers": "8"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 8.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "minecraft:pink_carpet"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "minecraft:pink_carpet",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "carpet_layers": "9"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 9.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "minecraft:pink_carpet"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "minecraft:pink_carpet",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "carpet_layers": "10"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 10.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "minecraft:pink_carpet"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "minecraft:pink_carpet",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "carpet_layers": "11"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 11.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "minecraft:pink_carpet"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "minecraft:pink_carpet",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "carpet_layers": "12"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 12.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "minecraft:pink_carpet"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "minecraft:pink_carpet",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "carpet_layers": "13"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 13.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "minecraft:pink_carpet"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "minecraft:pink_carpet",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "carpet_layers": "14"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 14.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "minecraft:pink_carpet"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "minecraft:pink_carpet",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "carpet_layers": "15"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 15.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "minecraft:pink_carpet"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "block": "minecraft:pink_carpet",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "carpet_layers": "16"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 16.0,
+                  "function": "minecraft:set_count"
+                }
+              ],
+              "name": "minecraft:pink_carpet"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

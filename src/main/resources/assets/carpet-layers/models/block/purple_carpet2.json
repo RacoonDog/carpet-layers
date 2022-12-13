@@ -1,0 +1,6 @@
+{
+  "parent": "carpet-layers:block/carpet2",
+  "textures": {
+    "wool": "minecraft:block/purple_wool"
+  }
+}

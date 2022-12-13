@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "carpet_layers=1": {
+      "model": "minecraft:block/black_carpet"
+    },
+    "carpet_layers=2": {
+      "model": "carpet-layers:block/black_carpet2"
+    },
+    "carpet_layers=3": {
+      "model": "carpet-layers:block/black_carpet3"
+    },
+    "carpet_layers=4": {
+      "model": "carpet-layers:block/black_carpet4"
+    },
+    "carpet_layers=5": {
+      "model": "carpet-layers:block/black_carpet5"
+    },
+    "carpet_layers=6": {
+      "model": "carpet-layers:block/black_carpet6"
+    },
+    "carpet_layers=7": {
+      "model": "carpet-layers:block/black_carpet7"
+    },
+    "carpet_layers=8": {
+      "model": "carpet-layers:block/black_carpet8"
+    },
+    "carpet_layers=9": {
+      "model": "carpet-layers:block/black_carpet9"
+    },
+    "carpet_layers=10": {
+      "model": "carpet-layers:block/black_carpet10"
+    },
+    "carpet_layers=11": {
+      "model": "carpet-layers:block/black_carpet11"
+    },
+    "carpet_layers=12": {
+      "model": "carpet-layers:block/black_carpet12"
+    },
+    "carpet_layers=13": {
+      "model": "carpet-layers:block/black_carpet13"
+    },
+    "carpet_layers=14": {
+      "model": "carpet-layers:block/black_carpet14"
+    },
+    "carpet_layers=15": {
+      "model": "carpet-layers:block/black_carpet15"
+    },
+    "carpet_layers=16": {
+      "model": "minecraft:block/black_wool"
+    }
+  }
+}

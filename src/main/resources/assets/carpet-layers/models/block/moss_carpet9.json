@@ -1,0 +1,6 @@
+{
+  "parent": "carpet-layers:block/carpet9",
+  "textures": {
+    "wool": "minecraft:block/moss_block"
+  }
+}

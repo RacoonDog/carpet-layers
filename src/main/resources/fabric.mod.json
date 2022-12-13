@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "carpet-layers",
+  "version": "${version}",
+  "name": "Carpet Layers",
+  "description": "Stack carpets on top of each other.",
+  "authors": [
+    "Crosby"
+  ],
+  "contact": {
+    "repo": "https://github.com/RacoonDog/carpet-layers",
+    "sources": "https://github.com/RacoonDog/carpet-layers",
+    "issues": "https://github.com/Racoondog/carpet-layers/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/carpet-layers/icon.png",
+  "environment": "*",
+  "mixins": [
+    "carpet-layers.mixins.json"
+  ],
+  "depends": {
+    "java": ">=16",
+    "fabric-resource-loader-v0": "*",
+    "fabricloader": "*",
+    "minecraft": ">=1.17"
+  }
+}
