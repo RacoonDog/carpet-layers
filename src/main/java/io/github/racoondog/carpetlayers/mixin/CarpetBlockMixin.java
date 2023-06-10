@@ -22,7 +22,7 @@ import static io.github.racoondog.carpetlayers.Constants.*;
 @SuppressWarnings("deprecation")
 @Mixin(CarpetBlock.class)
 public abstract class CarpetBlockMixin extends Block implements StackableCarpetManager {
-    @Unique private boolean isStackable = false;
+    @Unique private boolean isStackable;
 
     public CarpetBlockMixin(Settings settings) {
         super(settings);
@@ -46,14 +46,14 @@ public abstract class CarpetBlockMixin extends Block implements StackableCarpetM
      */
     @Overwrite
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
+        System.out.println(isStackable);
         if (isStackable) return LAYERS_TO_SHAPE[state.get(CARPET_LAYERS)];
-        else return super.getOutlineShape(state, world, pos, context);
+        else return LAYERS_TO_SHAPE[1];
     }
 
     /** Copied from {@link net.minecraft.block.SnowBlock} */
     @Override
     public VoxelShape getCollisionShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        if ((CarpetBlock) (Object) this instanceof CarpetBlock) System.out.println("stackable? %s; state: %s".formatted(isStackable, state.get(CARPET_LAYERS)));
         if (isStackable) return LAYERS_TO_SHAPE[state.get(CARPET_LAYERS)];
         else return super.getCollisionShape(state, world, pos, context);
     }
@@ -120,10 +120,5 @@ public abstract class CarpetBlockMixin extends Block implements StackableCarpetM
     @Override
     public void carpetLayers$setStackable(boolean stackable) {
         this.isStackable = stackable;
-    }
-
-    @Override
-    public boolean carpetLayers$getStackable() {
-        return this.isStackable;
     }
 }
