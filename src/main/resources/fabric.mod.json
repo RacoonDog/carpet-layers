@@ -10,7 +10,9 @@
   "contact": {
     "repo": "https://github.com/RacoonDog/carpet-layers",
     "sources": "https://github.com/RacoonDog/carpet-layers",
-    "issues": "https://github.com/Racoondog/carpet-layers/issues"
+    "issues": "https://github.com/Racoondog/carpet-layers/issues",
+    "discord": "https://discord.gg/4RBmBCFSTc",
+    "homepage": "https://modrinth.com/mod/carpet-layers"
   },
   "license": "MIT",
   "icon": "assets/carpet-layers/icon.png",

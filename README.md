@@ -5,6 +5,10 @@
   <a href="https://modrinth.com/mod/carpet-layers" rel="nofollow">Modrinth</a>
 </div>
 
+### Dependencies
+
+Requires module `fabric-resource-loader-v0` of [Fabric API](https://github.com/FabricMC/fabric) or [Quilted Fabric API](https://github.com/QuiltMC/quilted-fabric-api)
+
 ### Credits
 
 - [**Unsanded**](https://modrinth.com/resourcepack/unsanded) by [**unascribed**](https://modrinth.com/user/unascribed)  
