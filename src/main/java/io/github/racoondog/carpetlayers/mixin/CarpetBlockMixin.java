@@ -24,7 +24,7 @@ import static io.github.racoondog.carpetlayers.Constants.*;
 public abstract class CarpetBlockMixin extends Block implements StackableCarpetManager {
     @Unique private boolean isStackable;
 
-    public CarpetBlockMixin(Settings settings) {
+    private CarpetBlockMixin(Settings settings) {
         super(settings);
     }
 
@@ -46,7 +46,6 @@ public abstract class CarpetBlockMixin extends Block implements StackableCarpetM
      */
     @Overwrite
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        System.out.println(isStackable);
         if (isStackable) return LAYERS_TO_SHAPE[state.get(CARPET_LAYERS)];
         else return LAYERS_TO_SHAPE[1];
     }
@@ -89,7 +88,7 @@ public abstract class CarpetBlockMixin extends Block implements StackableCarpetM
                 if (context.canReplaceExisting()) return context.getSide() == Direction.UP;
                 return true;
             }
-            return i == 1;
+            return false;
         }
 
         return super.canReplace(state, context);
