@@ -8,6 +8,7 @@ import net.minecraft.util.shape.VoxelShapes;
 public class Constants {
     public static final IntProperty CARPET_LAYERS = IntProperty.of("carpet_layers", 1, 16);
     public static final VoxelShape[] LAYERS_TO_SHAPE = new VoxelShape[17];
+    public static boolean VANILLA_REGISTRATION = false;
 
     static {
         LAYERS_TO_SHAPE[0] = VoxelShapes.empty();
